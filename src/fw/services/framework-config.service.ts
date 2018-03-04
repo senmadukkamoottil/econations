@@ -6,7 +6,7 @@ export interface IconFiles {
   link: string;
 }
 
-export interface FrameworkConfigSettings{
+export interface FrameworkConfigSettings {
   showLanguageSelector?: boolean;
   showUserControls?: boolean;
   showStatusBar?: boolean;
@@ -25,6 +25,15 @@ export class FrameworkConfigService {
 
   configure(settings: FrameworkConfigSettings): void {
     Object.assign(this, settings);
+    console.log(this.socialIcons.length);
+  }
+
+  getSocialIcons(): Array<IconFiles> {
+    return this.socialIcons;
+  }
+
+  getSocialIconsCount(): number {
+    return this.socialIcons.length;
   }
 
   constructor() { }

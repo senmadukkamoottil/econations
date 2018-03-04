@@ -1,0 +1,6 @@
+.status-bar{
+    display: flex;
+    flex-grow: 0;
+    height: 50px;
+    background: grery;
+}

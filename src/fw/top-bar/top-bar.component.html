@@ -1,0 +1,10 @@
+<a *ngFor='let icon of config.socialIcons' 
+[href] = icon.link >
+  <img [src] = icon.imageFile
+       [alt] = icon.alt
+       class='top-image'/>
+</a>
+
+<div *ngIf='config.showUserControls'>
+  <span>SIGN IN</span>
+</div>
