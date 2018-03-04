@@ -1,7 +1,18 @@
 :host{
-    display: flexx;
+    display: flex;
     flex-direction: column;
     flex-grow: 0;
-    height: 50px;
     background: white;
+}
+
+.title-bar{
+    min-height: 80px;
+    display: flex;
+}
+
+.menu-area{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    right: 0px;
 }
