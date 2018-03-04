@@ -126,7 +126,7 @@
     "component-selector": [
       true,
       "element",
-      "fw",
+      ["fw", "app"],
       "kebab-case"
     ],
     "no-output-on-prefix": true,
