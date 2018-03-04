@@ -8,6 +8,7 @@
 .title-bar{
     min-height: 80px;
     display: flex;
+    flex-grow: 1;
 }
 
 .menu-area{
